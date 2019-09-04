@@ -1,0 +1,384 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url(dessert.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.container{
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+.container span{
+	color: black;
+	display: inline-block;
+}
+
+.text1{
+	font-size: 60px;
+	font-weight: 700;
+	font-family: cursive;
+	animation: text 3s 1;
+}
+.text2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: cursive;
+	animation: text 1s 1;
+}
+@keyframes text{
+	0%{
+		color:black
+		margin-bottom:-40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	margin-right: 5px;
+
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	color:black;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 20px;
+	transition: 0.6s ease;
+}
+.main-nav li a:hover{
+	background-color: red;
+}
+.main-nav li a:active{
+	color: red;
+}
+
+
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+.column{
+	flex:25%;
+	max-width: 25%
+	padding:0 4px;
+}
+.column img{
+	margin-top: 8px;
+	vertical-align: middle;
+}
+@media screen and (max-width:800px){
+	.column{
+		flex:50%;
+		max-width: 50%;
+	}
+}
+@media screen and (max-width:600px){
+	.column{
+		flex:100%;
+		max-width: 100%;
+	}
+}
+
+
+table, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #373333;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+
+table{
+
+	border:1px solid;
+	display: inline-table;
+	float: left;
+	margin: 10px;
+	transition: 0.6s ease;
+	background-color: #C4C4C4;
+
+}
+td:hover{
+	background-color: red;
+}
+.header{
+	background:black;
+	height: 75px;
+	width: 964px;
+}
+img{
+	float: left;
+	max-width: 100%
+	max-height:100%;
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	background-image: url(dessert.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+
+
+}
+.container{
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+.container span{
+	color: black;
+	display: inline-block;
+}
+
+.text1{
+	font-size: 60px;
+	font-weight: 700;
+	font-family: cursive;
+	animation: text 3s 1;
+}
+.text2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: cursive;
+	animation: text 1s 1;
+}
+@keyframes text{
+	0%{
+		color:black
+		margin-bottom:-40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	margin-right: 5px;
+
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	color:black;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 20px;
+	transition: 0.6s ease;
+}
+.main-nav li a:hover{
+	background-color: red;
+}
+.main-nav li a:active{
+	color: red;
+}
+
+
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+.column{
+	flex:25%;
+	max-width: 25%
+	padding:0 4px;
+}
+.column img{
+	margin-top: 8px;
+	vertical-align: middle;
+}
+@media screen and (max-width:800px){
+	.column{
+		flex:50%;
+		max-width: 50%;
+	}
+}
+@media screen and (max-width:600px){
+	.column{
+		flex:100%;
+		max-width: 100%;
+	}
+}
+
+
+img{
+	border-radius: 10px;
+	height: 300px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	transition: 0.6s ease;
+}
+
+table, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #373333;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+
+table{
+
+	border:1px solid;
+	display: inline-table;
+	float: left;
+	margin: 10px;
+	transition: 0.6s ease;
+	background-color: #C4C4C4;
+
+}
+td:hover{
+	background-color: red;
+} <th>Hot Chocolate</th>
+    <th>Price</th>
+
+  </tr>
+  <tr>
+    <td>Nutella Hot Chocolate </td>
+     <td>$3</td>
+  </tr>
+  <tr>
+    <td>Rasberry White Hot Chocolate.</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>Belgian Hot Chocolate.</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>White Hot Chocolate.</td>
+    <td>$3</td>
+
+  </tr>
+</table>
+<table style="width:40%" align="right">
+  <tr>
+    <th>MilkShakes</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>MY BFF </td>
+     <td>$3</td>
+  </tr>
+  <tr>
+    <td>BANANGO</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>CHOCOLATE MONKEY</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>TWISTED CHOCOLATE</td>
+    <td>$3</td>
+  </tr>
+</table>
+<table style="width:40%">
+  <tr>
+    <th>DESSERTS</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>STRAWBERRY & BANANA CREPE </td>
+     <td>$3</td>
+  </tr>
+  <tr>
+    <td>CREPE WITH FRUIT</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>PLAIN CREPE</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>BELGIAN WAFFLE</td>
+    <td>$3</td>
+
+  </tr>
+  <tr>
+    <td>NUTELLA WAFFLE + FRUIT</td>
+    <td>$3</td>
+
+  </tr>
+</table>
+<table style="width:40%" align="right">
+  <tr>
+    <th>CAKES</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>NEWYORK STYLE CHEESECAKE</td>
+     <td>$3</td>
+  </tr>
+  <tr>
+    <td>RED VELVET CAKE</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>CARROT CAKE</td>
+    <td>$3</td>
+  </tr>
+  <tr>
+    <td>DOUBLE CHOCOLATE BROWNIE</td>
+    <td>$3</td>
+
+  </tr>
+  <tr>
+    <td>APPLE PIE</td>
+    <td>$3</td>
+
+
+

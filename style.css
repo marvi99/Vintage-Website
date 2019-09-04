@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+.main-nav{
+	background-color: #9D929B;
+	text-align: right;
+	list-style: none;
+	max-width: 100%
+}
+.main-nav li{
+	display: inline-block;
+	padding: 20px 10px;
+}
+.main-nav li a{
+	color:black;
+	text-decoration: none;
+	padding:5px 8px;
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.6s ease;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+.banner{
+	background-image: url(dessert.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height: 400px;
+	margin:2px auto;
+}
+
+
+.title{
+	text-align: center;
+	position: absolute;
+	top:40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+.title span{
+	color: black;
+	display: inline-block;
+}
+.text1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Luminari, fantasy;
+	animation: text 3s 1;
+}
+@keyframes text{
+	0%{
+		color:black
+		margin-bottom:-40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family:  Luminari, fantasy;
+}
+.category img{
+	width: 20%;
+	top:40%;
+	margin-left: 100px;
+	
+}
+
+.footer{
+	background-color: black;
+	width: 100%;
+	height: 200px;
+}
+h2,h3{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 8px;
+	font-family: URW Chancery L, cursive;
+}

@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	background-color: gray;
+}
+header{
+	background-image: url(dessert.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	backface-visibility: hidden;
+	
+}
+nav{
+	background-color: black;
+	width: 100&
+	
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li{
+	float:right;
+}
+nav a{
+	color:black;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 20px;
+	transition: 0.6s ease;
+}
+nav a:hover{
+	background:red;
+	color:black;
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+}
+.gallery{
+	margin: 5px;
+	boarder:1px;
+	float:left;
+}
+.gallery img{
+
+	width:100%;
+	height:auto;
+
+}
